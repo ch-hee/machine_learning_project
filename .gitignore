@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,jupyternotebooks,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,jupyternotebooks,python
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python,jupyternotebooks
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,python,jupyternotebooks
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -184,6 +184,25 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -210,4 +229,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,jupyternotebooks,python
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python,jupyternotebooks
